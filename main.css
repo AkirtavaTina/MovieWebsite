@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&display=swap");
+*,
+*::after,
+*::before {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 2035px;
+  justify-content: center;
+  background: #000000 !important;
+  background-image: url(../images/Group\ 1.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 118.79px -39.29px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 59px;
+  height: auto;
+  cursor: pointer;
+  position: absolute !important;
+  top: 61px !important;
+  left: 118px !important;
+}
+.logo #mainTitle {
+  cursor: pointer;
+  height: 74px;
+  width: 117px;
+  text-align: left;
+  position: absolute !important;
+  top: 56px !important;
+  left: 177px !important;
+  color: #f8b319;
+  font-size: 32px;
+  font-family: "Luckiest Guy";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar__ul {
+  padding-left: 0;
+  display: flex;
+  position: absolute !important;
+  top: 68px !important;
+  left: 488px !important;
+  color: #f9f9f9;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  gap: 34px;
+  justify-content: center;
+  list-style: none;
+}
+.navbar__ul a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.navbar a:hover {
+  border-bottom: 2px solid #ffd748;
+  color: #ffd748;
+}
+
+.search-container {
+  width: 315px;
+  height: 56px;
+  position: absolute !important;
+  top: 59px !important;
+  left: 943px !important;
+}
+
+#search-bar {
+  background-color: #21242d;
+  border-width: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  padding-left: 64px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  position: relative;
+  color: #f9f9f9;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  pointer-events: none;
+}
+
+.icon1 {
+  left: 25px;
+}
+
+.icon2 {
+  right: 16px;
+}
+
+.menu {
+  display: block;
+  position: absolute !important;
+  top: 166px !important;
+  left: 143px !important;
+}
+.menu #menu_title {
+  color: rgba(249, 249, 249, 0.67);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.menu .menu_bar {
+  align-items: left;
+  list-style: none;
+  padding-left: 0;
+}
+.menu .menu_bar a {
+  color: rgb(249, 249, 249);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  color: #f9f9f9;
+}
+.menu li {
+  margin-top: 25px;
+}
+.menu li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+.menu a:hover {
+  color: #ffd748;
+}
+
+.library {
+  display: block;
+  position: absolute !important;
+  top: 443px !important;
+  left: 143px !important;
+}
+.library #library_title {
+  color: rgba(249, 249, 249, 0.67);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.library .library_bar {
+  align-items: left;
+  list-style: none;
+  padding-left: 0;
+}
+.library .library_bar a {
+  color: rgb(249, 249, 249);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.library .library_bar a:hover {
+  color: #ffd748;
+}
+.library li {
+  margin-top: 25px;
+}
+.library li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+
+.general {
+  display: block;
+  position: absolute !important;
+  top: 812px !important;
+  left: 143px !important;
+}
+.general #general_title {
+  color: rgba(249, 249, 249, 0.67);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.general .general_bar {
+  list-style: none;
+  padding-left: 0;
+}
+.general .general_bar a {
+  color: rgb(249, 249, 249);
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.general li {
+  margin-top: 25px;
+}
+.general li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}
+.general a:hover {
+  color: #ffd748;
+}
+
+.carousel {
+  width: 770px;
+  height: 350px !important;
+  position: absolute !important;
+  top: 161px !important;
+  left: 488px !important;
+}
+.carousel img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.carousel p {
+  position: absolute !important;
+  top: 30px !important;
+  left: 40px !important;
+  height: 48px;
+  width: 440px;
+  font-weight: 800 !important;
+  margin: 0;
+  color: #f9f9f9;
+  font-size: 48px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.carousel button {
+  margin: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  background-color: rgba(249, 249, 249, 0.2);
+  color: #f9f9f9 100%;
+  width: 50px;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.carousel .watchlist {
+  position: absolute;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  width: 160px !important;
+  height: 56px !important;
+  font-weight: 800;
+  bottom: 21px;
+  border: 0;
+}
+.carousel .watchlist:hover {
+  background-color: rgba(249, 249, 249, 0.097);
+}
+.carousel .watchNow {
+  position: absolute;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  width: 190px !important;
+  height: 56px !important;
+  font-weight: 800;
+  background-color: #f8b319;
+  bottom: 21px;
+  right: 20px;
+  margin: 0;
+  border: 0;
+}
+.carousel .watchNow:hover {
+  background-color: #d69917;
+}
+
+.card {
+  width: 235px;
+  height: 298px !important;
+  border: 0;
+  object-fit: cover;
+}
+.card .plus {
+  position: absolute !important;
+  top: 231px !important;
+  left: 10px !important;
+  width: 57px;
+  height: 57px;
+  background-color: rgba(249, 249, 249, 0.2);
+  border-radius: 15px;
+  border: 0;
+}
+.card .plus:hover {
+  background-color: rgba(249, 249, 249, 0.097);
+}
+.card .info {
+  position: absolute !important;
+  top: 231px !important;
+  left: 77px !important;
+  width: 150px;
+  height: 57px;
+  background-color: #f8b319;
+  border-radius: 15px;
+  border: 0;
+  font-weight: 800 !important;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.card .info:hover {
+  background-color: #d69917;
+}
+
+#loki {
+  background-image: url("../images/Loki.png");
+  position: absolute !important;
+  top: 631px !important;
+  left: 488px !important;
+  border-radius: 25px !important;
+  background-size: cover;
+  border: 0;
+}
+
+#chernobyl {
+  background-image: url("../images/Chernobyl.png");
+  position: absolute !important;
+  top: 631px !important;
+  left: 755px !important;
+  border-radius: 25px !important;
+  background-size: cover;
+  border: 0;
+}
+
+#ricky {
+  background-image: url("../images/Rick and Morty.png");
+  position: absolute !important;
+  top: 631px !important;
+  left: 1034px !important;
+  border-radius: 25px !important;
+  background-size: cover;
+  border: 0;
+}
+
+.movies h2 {
+  position: absolute !important;
+  top: 571px !important;
+  left: 488px !important;
+  color: #f9f9f9;
+  font-size: 30px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  font-weight: 800;
+}
+.movies .movieName {
+  position: absolute !important;
+  top: 21px !important;
+  left: 21px !important;
+  color: #f9f9f9;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  font-weight: 800;
+}
+.movies .episodes {
+  position: absolute !important;
+  top: 199px !important;
+  left: 10px !important;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  opacity: 70%;
+}
+.movies .genre {
+  position: absolute !important;
+  top: 199px !important;
+  left: 143px !important;
+  color: #f9f9f9;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  opacity: 70%;
+}
+
+.topRatedMovie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 953px;
+  gap: 34px;
+  position: absolute !important;
+  top: 280px !important;
+  left: 77px !important;
+}
+
+.ratedMovies h2 {
+  position: absolute !important;
+  top: 172px !important;
+  left: 58px !important;
+  color: #f9f9f9;
+  font-size: 48px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  font-weight: 800;
+}
+
+.movieCard {
+  cursor: pointer;
+  border: 0;
+  border-radius: 17px 17px 0 0;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 29.24px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  width: 295px !important;
+  height: 600px !important;
+}
+.movieCard h3 {
+  margin-top: 15px;
+}
+
+#imdbRating {
+  text-align: center;
+  justify-content: center;
+  padding-top: 3px;
+  color: #000000;
+  font-size: 23px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  position: absolute;
+  top: 0;
+  margin-left: 218px;
+  width: 77px;
+  height: 38px;
+  border-radius: 0 17px 0 17px;
+  background-color: #f8b319;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.movieCard img {
+  width: 100%;
+  height: 72%;
+  z-index: -1;
+}
+
+.movie-container {
+  position: absolute !important;
+  top: 967px !important;
+  left: 82px !important;
+  width: 1065px;
+  height: 922px;
+}
+
+.loadMoreButton {
+  background-color: #f8b319;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  border: 0;
+  border-radius: 15px;
+  width: 150px;
+  height: 57px;
+  font-weight: 800 !important;
+  margin: 20px auto;
+}
+
+.rating {
+  display: flex;
+  height: 21px;
+  gap: 7px;
+}
+
+.rating img {
+  height: 100%;
+  width: 21px;
+  margin: 0;
+}
+
+#halfstar {
+  width: 10.5px;
+  margin: 0;
+}
+
+.loadMoreButton:hover {
+  background-color: #d69917;
+}
+
+.releaseDate {
+  color: #f9f9f9;
+  font-size: 17px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  opacity: 70%;
+  margin-bottom: 17px;
+  margin-top: 11px;
+}
+
+.plot {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+.movie-item {
+  width: 315px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.337254902);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.movie-img {
+  padding-left: 20px;
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.movie-title {
+  color: #f9f9f9;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 500;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.movie-list {
+  position: absolute;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
